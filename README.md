@@ -24,8 +24,30 @@ At the moment here's my idea for the software layout:
 * Transaction database stored in blockchain
 
 ## Requirements:
-* IDE or text editor
+* IDE and/or text editor
 * Node.js
 * ExpressJS library
 * Python 3
 * Local server (XAMPP, WAMP, etc.)
+
+## System Design:
+Admin Account:
+* Login for branch manager to edit transactions and account 
+* Stored in NoSQL database
+* Admin.html
+
+Teller Accounts:
+* Login for tellers to perform transactions
+* Stored in NoSQL database
+* Index.html
+
+Customer Accounts:
+* Data able to be accessed by third party banking apps
+
+Data:
+* Branch/region routing number
+* Customer specific account numbers (Object[account] = routing #, account #, balance, transactions, card #, etc.)
+* Customer sensitive info (name, email, phone #, address)
+
+Built in applications:
+* OFAC
