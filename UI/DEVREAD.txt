@@ -1,0 +1,4 @@
+The UI directory contains all files for web app side of the software.
+This is where all node modules, html, css and js files will go.
+Media such as images will be placed in the "UI/public/images" directory.
+HTML will be rendered using EJS. Will render vanilla HTML code.
