@@ -18,7 +18,8 @@ At the moment here's my idea for the software layout:
 * Submits and inputs done through JavaScript
 
 ### Backend:
-* Server hosted by AWS
+* Server hosted by 
+* Streamline data to AWS, removing need for local server
 * No-SQL database structure
 * Use NOde.js to retreive and send data from database
 * Transaction database stored in blockchain
